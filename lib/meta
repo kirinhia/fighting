@@ -52,7 +52,7 @@ export const isDev = environment === 'development'
 export const name: string = getRequiredSiteConfig('name')
 export const author: string = getRequiredSiteConfig('author')
 export const domain: string = getRequiredSiteConfig('domain')
-export const description: string = getSiteConfig('description', '麒麟的社會創新個人網站。探討地方創生、性別友好、永續生活方式的行動策劃和個人探索。')
+export const description: string = getSiteConfig('description', 'Notion Blog')
 export const language: string = getSiteConfig('language', 'en')
 
 // social accounts
