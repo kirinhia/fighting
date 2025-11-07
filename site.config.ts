@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: '麒麟的社會創新個人網站 Kirin‘s Wanderland',
+  domain: 'kirinhuang.com',
+  author: '麒麟Kirin',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '麒麟的社會創新個人網站。探討地方創生、性別友好、永續生活方式的行動策劃和個人探索。',
 
   // social usernames (optional)
   github: 'kirinhia',
