@@ -1,3 +1,5 @@
+import { type ParsedUrlQuery } from 'node:querystring'
+
 import { type ExtendedRecordMap, type PageMap } from 'notion-types'
 
 export * from 'notion-types'
@@ -20,7 +22,7 @@ export interface ExtendedTweetRecordMap extends ExtendedRecordMap {
   tweets: Record<string, any>
 }
 
-export interface Params extends Record<string, string | string[] | undefined> {
+export interface Params extends ParsedUrlQuery {
   pageId: string
 }
 
